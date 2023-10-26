@@ -55,7 +55,6 @@ public class DataGenerator {
             return sendRequest(getUser(status));
         }
     }
-
     @Value
     public static class RegistrationDto {
         String login;
